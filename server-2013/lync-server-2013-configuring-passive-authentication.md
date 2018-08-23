@@ -35,7 +35,7 @@ As etapas a seguir descrevem como criar uma configuração personalizada de serv
         New-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > O valor para o FQDN WsFedPassiveMetadataUri é o Nome de Serviço de Federação do seu servidor AD FS 2.0. O valor do Nome de Serviço de Federação pode ser encontrado no Console de Gerenciamento do AD FS 2.0 clicando com o botão direito do mouse em <STRONG>Serviço</STRONG> a partir do painel de navegação, selecionando em seguida <STRONG>Editar propriedades do serviço de federação</STRONG>.
 
 
@@ -62,17 +62,17 @@ As etapas a seguir descrevem como criar uma configuração personalizada de prox
 
 1.  Na linha de comandoShell de Gerenciamento do Lync Server, crie uma nova configuração de proxy para cada servidor de pool Edge, pool Enterprise e Standard Edition do Lync Server 2013 com Atualizações Cumulativas de julho de 2013 que será habilitado para a autenticação passiva executando os seguintes comandos:
     
-```
+    ```
         New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 
         -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
-```
-```    
+    ```
+    ```    
         New-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com" 
         -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
-```
+    ```
 
 2.  Verifique se todos os outros tipos de autenticação de proxy foram desabilitados com sucesso executando o seguinte comando:
-    
+    ```
         Get-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com"
          | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
-
+    ```

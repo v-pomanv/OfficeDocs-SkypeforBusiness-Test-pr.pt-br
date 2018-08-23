@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar políticas para controlar acesso de usuário federado'
+title: "Lync Server 2013: config. políticas p/ controlar acesso de usuário federado"
 TOCTitle: Configurar políticas para controlar acesso de usuário federado
 ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398359(v=OCS.15)
@@ -67,7 +67,7 @@ Se essa for uma política de usuário, você também deverá aplicar a política
         Set-CsExternalAccessPolicy -Identity global -EnableFederationAccess $true -EnableXmppAccess $true -EnableOutsideAccess $true -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
     
 
-    > [!TIP]
+    > [!TIP]  
     > O parâmetro “EnablePublicCloudAudioVideoAccess” não possui uma seleção correspondente no Painel de Controle do Lync Server
 
 

@@ -1,6 +1,6 @@
 ﻿---
-title: Gerenciando a configuração do computador, local e de serviço de registro em log centralizado global
-TOCTitle: Gerenciando a configuração do computador, local e de serviço de registro em log centralizado global
+title: "Ger. a config. do computador, local e de serviço de reg. em log centr. global"
+TOCTitle: "Ger. a config. do computador, local e de serviço de reg. em log centr. global"
 ms:assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688138(v=OCS.15)
 ms:contentKeyID: 49886318
@@ -31,7 +31,7 @@ Por exemplo:
 Um escopo de computador exclusivo pode ser definido durante a execução de um comando [Search-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Search-CsClsLogging), [Show-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Show-CsClsLogging), [Start-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Start-CsClsLogging), [Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging), [Sync-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Sync-CsClsLogging) e [Update-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsClsLogging) usando o parâmetro –Computers. Esse parâmetro aceita uma lista separada por vírgulas de FQDNs (nomes de domínio totalmente qualificados) para o computador de destino.
 
 
-> [!TIP]
+> [!TIP]  
 > Você pode também definir –Pools e uma lista separada por vírgula de pools na qual você deseja executar os comandos de log.
 
 

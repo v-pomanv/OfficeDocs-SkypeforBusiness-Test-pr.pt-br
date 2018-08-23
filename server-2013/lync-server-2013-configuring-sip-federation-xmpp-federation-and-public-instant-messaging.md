@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurando federação SIP, federação XMPP e sistema de mensagens instântaneas público'
+title: "Lync Server 2013: Config. feder. SIP, feder. XMPP e sist. de m. instant público"
 TOCTitle: Configurando federação SIP, federação XMPP e sistema de mensagens instântaneas público
 ms:assetid: a6d04f0b-5cb8-4084-a3a2-d501938971f9
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205134(v=OCS.15)
@@ -76,10 +76,10 @@ A federação XMPP define uma implantação externa baseada no protocolo XMPP (e
 <td><p>Determina as opções para adicionar à implantação de borda existente</p></td>
 <td><p>Execute a Construtor de Topologias para editar as configurações do Servidor de Borda e criar e publica a topologia. Sua topologia de borda existente irá replicar as alterações do Repositório de Gerenciamento Central no Servidor de Borda.</p></td>
 <td><p>Grupo de administradores de domínio e grupo RTCUniversalServerAdmins</p>
-<div class="alert">
+
 > [!NOTE]  
 > Você pode editar uma topologia usando uma conta que é membro do grupo de usuários locais, mas publicar uma topologia exige uma conta que seja membro de um grupo de administradores de domínio e do grupo RTCUniversalServerAdmins
-</div></td>
+</td>
 <td><p><a href="lync-server-2013-building-an-edge-and-director-topology.md">Criando uma topologia de borda e de diretor no Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">

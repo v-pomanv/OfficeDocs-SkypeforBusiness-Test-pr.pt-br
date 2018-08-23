@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Gerenciando de federação e acesso externo ao Lync Server 2013'
+title: "Lync Server 2013: Gerenciando de federação e acesso externo ao Lync Server 2013"
 TOCTitle: Gerenciando de federação e acesso externo ao Lync Server 2013
 ms:assetid: 26f806c1-f284-4637-b06b-06270336c540
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg520966(v=OCS.15)
@@ -151,10 +151,10 @@ Se você prefere uma tabela que lista os requisitos:
 <td><p>Acesso do usuário anônimo para reuniões e conferências</p></td>
 <td><p></p></td>
 <td><p><a href="lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md">Atribuir políticas de conferência para suporte de usuários anônimos no Lync Server 2013</a></p>
-<div class="alert">
+
 > [!NOTE]  
 > Você também deve considerar as seguintes definições de configuração nas políticas de Configuração: <a href="lync-server-2013-create-or-modify-a-conferencing-policy.md">Criar ou Modificar uma Política de Conferência no Lync Server 2013</a> e <a href="lync-server-2013-conferencing-policy-settings-reference.md">Referência das configurações da política de conferência para Lync Server 2013</a>
-</div></td>
+</td>
 <td><p></p></td>
 <td><p></p></td>
 <td><p></p></td>
